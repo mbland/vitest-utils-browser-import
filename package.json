@@ -12,8 +12,13 @@
   },
   "devDependencies": {
     "@vitest/browser": "file:../vitest/packages/browser",
-    "vite": "4.5.1",
+    "vite": "link:../vite/packages/vite",
     "vitest": "file:../vitest/packages/vitest",
-    "webdriverio": "^8.24.6"
+    "webdriverio": "8.24.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "$vite"
+    }
   }
 }

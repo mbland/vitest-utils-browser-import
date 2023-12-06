@@ -1,2 +1,3 @@
 packages:
+  - '../vite/packages/vite'
   - '../vitest/packages/*'
