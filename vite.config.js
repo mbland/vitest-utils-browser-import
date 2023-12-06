@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/strcalc',
+  base: '/foobar',
   test: {
     browser: {
       enabled: true,

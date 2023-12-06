@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite build && vite preview",
     "test": "vitest",
-    "test:bisect": "vitest --run --browser.headless"
+    "test:workaround": "vitest -c vitest.config-workaround.js"
   },
   "devDependencies": {
     "@vitest/browser": "file:../vitest/packages/browser",
